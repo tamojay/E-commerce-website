@@ -1,0 +1,22 @@
+*{
+  color: rgb(76, 66, 66);
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+/* Scroll bar */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  outline: 1px solid slategrey;
+}
